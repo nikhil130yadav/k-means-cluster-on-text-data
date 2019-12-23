@@ -11,8 +11,11 @@ said 0.38973 -0.2121 0.51837 0.80136 1.0336 -0.27784 -0.84525 -0.25333 0.12586 -
 output is in the form:
 
 Cluster 72 :: car|cars|vehicles|vehicle|truck|trucks
+
 Cluster 73 :: zagreb|ossetia|pristina|abkhazia|tbilisi|baku|tirana|nicosia|skopje|mostar|fk
+
 Cluster 74 :: guangdong|zhejiang|shandong|jiangsu|henan|liaoning|hunan|hebei|shanxi|anhui|hubei
+
 Cluster 75 :: iraqis|afghans|iranians|pakistanis|saudis
 
 Using this code you can control number of words to be fed to K-means algorith as sometimes there are memory constraints and
