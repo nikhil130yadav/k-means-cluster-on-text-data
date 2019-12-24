@@ -66,8 +66,8 @@ if __name__ == "__main__":
 
   cluster_labels  = kmeans_model.labels_ #returns all cluster number assigned to each word respectively
   cluster_to_words  = assign_word2cluster(wordlist, cluster_labels)
-
-  with io.open("/kaggle/working/outputArisGlob.txt",mode='w+',encoding="UTF-8") as file:
+  #saving output in outut.text file
+  with io.open("/kaggle/working/output.txt",mode='w+',encoding="UTF-8") as file:
     for key in sorted(cluster_to_words.keys()) :
         file.writelines("Cluster "+str(key) +" :: "+ "|".join( k for k in cluster_to_words[key])+"\n")
         print("Cluster "+str(key) , " :: " , "|".join( k for k in cluster_to_words[key]))
