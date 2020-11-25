@@ -1,3 +1,4 @@
+# Guidelines
 # k-means-cluster-on-text-data
 This repository explains how to make use of k-means algorithm to make clusters of similar/related words.
 
